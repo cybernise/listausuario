@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Usuário</title>
+</head>
+
+<style>
+    body{
+        background-color: rgb(161, 135, 113);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    hr {
+        color:  rgb(141, 137, 137) ;
+    }
+    p{
+        font-size: 20px;
+        margin: 0;
+        padding: 5px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+
+   .p2  {
+        color: rgb(151, 145, 145);
+    }
+    ul{
+        padding: 20px;
+        border: 1px solid rgb(179, 145, 74);
+        box-sizing: border-box;
+        background-color: white;   
+    }
+
+    
+    .list-item{
+        padding: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+
+    }
+    .list-item__image{
+        flex-shrink: 0;
+
+    }
+
+    .list-item__content{
+        margin: 20px;
+        flex-grow: 1;
+    }
+
+    img{
+        border: 1px ;
+        border-radius: 80%;
+        width: 100px;
+    }
+
+
+</style>
+</head>
+<body>
+<ul class="list">
+    <li class="list-item">
+        <div class="list-item__image"> <img src="/imagens/56.jpg" alt="imagem1"></div>
+        <div class="list-item__content"> <p>Brooklyn Dixon</p> <p class="p2">5717 W Gray St</p></div>
+        
+    </li>
+    <hr>
+    <li class="list-item">
+        <div class="list-item__image"> <img src="/imagens/4.jpg" alt="imagem2"></div>
+        <div class="list-item__content"> <p>Sherry Simmmons</p> <p class="p2">4560 Green Rd</p>
+        </div>
+    </li>
+    <hr>
+    <li class="list-item">
+        <div class="list-item__image"> <img src="/imagens/65.jpg" alt="imagem3"></div>
+        <div class="list-item__content"> <p>Katrina Thompson</p> <p class="p2">7317 E North St</p></div>
+    </li>
+    <hr>
+    <li class="list-item">
+        <div class="list-item__image"> <img src="/imagens/74.jpg" alt="imagem4"></div>
+        <div class="list-item__content"> <p>Dustin Harris</p> <p class="p2">6371 Oak Lawn Ave</p></div>
+    </li>
+
+</ul>
+</body>
+</html>
